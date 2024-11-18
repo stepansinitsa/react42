@@ -1,0 +1,123 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.steps {
+  background-color: white;
+}
+
+.spanText {
+  color: black;
+}
+
+.formSteps {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+
+.contData {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.inputData {
+  border: 1px solid black;
+  border-radius: 15px;
+  height: 50px;
+}
+
+.contDistance {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.inputDistance {
+  border: 1px solid black;
+  border-radius: 15px;
+  height: 50px;
+
+}
+
+.btn {
+  margin-left: 10px;
+  border: 1px solid black;
+  width: 80px;
+  height: 55px;
+  border-radius: 15px;
+}
+
+.label_results {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.list-content{
+  border: 1px solid black;
+  border-radius: 15px;
+  transform: translateY(55px);
+}
+.label_results-item {
+  width: 33.3%;
+
+}
+
+.containerTwo {
+  height: 300px;
+  background-color: white;
+}
+
+.results_steps {
+  display: flex;
+  width: 100%;
+  text-align: center;
+ transform: translateY(50px);
+}
+
+.results_steps-item {
+  width: 33.3%;
+  margin-right: 10px;
+}
+
+.edit {
+  background-image: url('../src/img/pencil_icon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 8px;
+  background-position: center;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.delete {
+  background-image: url('../src/img/cross-mark.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 8px;
+  background-position: center;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.action {
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+}
+
+.content-btn {
+  margin-left: 10px;
+}
